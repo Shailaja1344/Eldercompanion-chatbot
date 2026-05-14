@@ -1,0 +1,16 @@
+# Technology Guide for Seniors
+
+## Smartphone Basics
+- **Making Calls**: Tap the green phone icon. Tap "Keypad" to dial a number, or "Contacts" to select someone you know.
+- **Sending Messages**: Tap the green speech bubble icon. Enter the contact's name, type your message in the text box, and press the arrow to send.
+- **Adjusting Volume**: Use the physical buttons on the side of the phone. You can also go to Settings > Sounds to adjust ringtone volume.
+
+## Video Calling Family
+- **WhatsApp**: Open WhatsApp, tap "Chats", select a contact, and tap the video camera icon at the top right.
+- **FaceTime (Apple)**: Open the FaceTime app, tap "New FaceTime", enter a contact name, and tap the video button.
+- **Zoom**: Download Zoom, click "Join a Meeting", and enter the meeting ID provided by your family.
+
+## Internet Safety and Scams
+- **Passwords**: Never share your passwords. Use a mix of letters, numbers, and symbols.
+- **Phishing Emails**: Do not click on links in emails from unknown senders. If an email claims to be from your bank asking for personal info, call the bank directly instead.
+- **Tech Support Scams**: Real companies will not call you out of the blue to fix your computer. Hang up if someone calls claiming your computer has a virus.

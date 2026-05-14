@@ -1,0 +1,378 @@
+2026-05-12 19:44:10 | src.rag_pipeline | INFO | Initializing Senior Chatbot Pipeline...
+2026-05-12 19:44:10 | src.rag_pipeline | INFO | Step 1/3: Loading embedding model...
+2026-05-12 19:44:10 | src.embeddings | INFO | Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-05-12 19:44:49 | src.embeddings | INFO | Embedding model loaded successfully
+2026-05-12 19:44:49 | src.rag_pipeline | INFO | Step 2/3: Setting up vector store...
+2026-05-12 19:44:49 | src.rag_pipeline | INFO | Building new FAISS index...
+2026-05-12 19:44:49 | src.data_loader | INFO | Loaded healthcare.txt (1162 chars)
+2026-05-12 19:44:49 | src.data_loader | INFO | Loaded technology.txt (1262 chars)
+2026-05-12 19:44:49 | src.data_loader | INFO | Loaded banking.txt (1212 chars)
+2026-05-12 19:44:49 | src.data_loader | INFO | Loaded emergency.txt (1238 chars)
+2026-05-12 19:44:49 | src.data_loader | INFO | Loaded entertainment.txt (2421 chars)
+2026-05-12 19:44:49 | src.data_loader | INFO | Loaded companion.txt (2797 chars)
+2026-05-12 19:44:49 | src.data_loader | INFO | Loaded voice_text_tips.txt (3129 chars)
+2026-05-12 19:44:49 | src.data_loader | INFO | Total documents loaded: 7
+2026-05-12 19:44:49 | src.data_loader | INFO | Split 7 docs into 38 chunks
+2026-05-12 19:44:49 | src.embeddings | INFO | Building FAISS index from 38 chunks...
+2026-05-12 19:44:52 | src.embeddings | INFO | FAISS index saved to C:\Users\shail\OneDrive\Desktop\Antigravity projects\pcos_decision_fusion\senior_chatbot\vectorstore
+2026-05-12 19:44:52 | src.rag_pipeline | INFO | Step 3/3: Loading LLM...
+2026-05-12 19:44:52 | src.llm_engine | INFO | Loading LLM: google/flan-t5-base
+2026-05-12 19:49:44 | src.rag_pipeline | INFO | Initializing Senior Chatbot Pipeline...
+2026-05-12 19:49:44 | src.rag_pipeline | INFO | Step 1/3: Loading embedding model...
+2026-05-12 19:49:44 | src.embeddings | INFO | Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-05-12 19:49:53 | src.embeddings | INFO | Embedding model loaded successfully
+2026-05-12 19:49:53 | src.rag_pipeline | INFO | Step 2/3: Setting up vector store...
+2026-05-12 19:49:53 | src.embeddings | INFO | Loading FAISS index from C:\Users\shail\OneDrive\Desktop\Antigravity projects\pcos_decision_fusion\senior_chatbot\vectorstore
+2026-05-12 19:49:53 | src.embeddings | INFO | FAISS index loaded successfully
+2026-05-12 19:49:53 | src.rag_pipeline | INFO | Step 3/3: Loading LLM...
+2026-05-12 19:49:53 | src.llm_engine | INFO | Loading LLM: google/flan-t5-base
+2026-05-12 19:49:56 | src.rag_pipeline | INFO | Initializing Senior Chatbot Pipeline...
+2026-05-12 19:49:56 | src.rag_pipeline | INFO | Step 1/3: Loading embedding model...
+2026-05-12 19:49:56 | src.embeddings | INFO | Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-05-12 19:50:04 | src.embeddings | INFO | Embedding model loaded successfully
+2026-05-12 19:50:04 | src.rag_pipeline | INFO | Step 2/3: Setting up vector store...
+2026-05-12 19:50:04 | src.embeddings | INFO | Loading FAISS index from C:\Users\shail\OneDrive\Desktop\Antigravity projects\pcos_decision_fusion\senior_chatbot\vectorstore
+2026-05-12 19:50:04 | src.embeddings | INFO | FAISS index loaded successfully
+2026-05-12 19:50:04 | src.rag_pipeline | INFO | Step 3/3: Loading LLM...
+2026-05-12 19:50:04 | src.llm_engine | INFO | Loading LLM: google/flan-t5-base
+2026-05-12 19:50:07 | streamlit_app | ERROR | Pipeline init error: "Unknown task text2text-generation, available tasks are ['any-to-any', 'audio-classification', 'automatic-speech-recognition', 'depth-estimation', 'document-question-answering', 'feature-extraction', 'fill-mask', 'image-classification', 'image-feature-extraction', 'image-segmentation', 'image-text-to-text', 'keypoint-matching', 'mask-generation', 'ner', 'object-detection', 'sentiment-analysis', 'table-question-answering', 'text-classification', 'text-generation', 'text-to-audio', 'text-to-speech', 'token-classification', 'video-classification', 'zero-shot-audio-classification', 'zero-shot-classification', 'zero-shot-image-classification', 'zero-shot-object-detection']"
+2026-05-12 19:51:27 | src.rag_pipeline | INFO | Initializing Senior Chatbot Pipeline...
+2026-05-12 19:51:27 | src.rag_pipeline | INFO | Step 1/3: Loading embedding model...
+2026-05-12 19:51:27 | src.embeddings | INFO | Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-05-12 19:51:36 | src.embeddings | INFO | Embedding model loaded successfully
+2026-05-12 19:51:36 | src.rag_pipeline | INFO | Step 2/3: Setting up vector store...
+2026-05-12 19:51:36 | src.embeddings | INFO | Loading FAISS index from C:\Users\shail\OneDrive\Desktop\Antigravity projects\pcos_decision_fusion\senior_chatbot\vectorstore
+2026-05-12 19:51:36 | src.embeddings | INFO | FAISS index loaded successfully
+2026-05-12 19:51:36 | src.rag_pipeline | INFO | Step 3/3: Loading LLM...
+2026-05-12 19:51:36 | src.llm_engine | INFO | Loading LLM: google/flan-t5-base
+2026-05-12 19:51:40 | src.llm_engine | INFO | LLM loaded successfully
+2026-05-12 19:51:40 | src.rag_pipeline | INFO | Pipeline initialized successfully!
+2026-05-12 19:55:26 | src.domain_classifier | INFO | Domain classified: companion (confidence: 0.040)
+2026-05-12 19:55:26 | src.domain_classifier | INFO | Embedding classification: voice_text (confidence: 0.667)
+2026-05-12 19:55:26 | src.retriever | INFO | Retrieving top-4 chunks for: 'hello...'
+2026-05-12 19:55:26 | src.retriever | INFO | Domain filter 'voice_text': 5 matches
+2026-05-12 19:55:26 | src.retriever | INFO | Retrieved 4 chunks
+2026-05-12 19:55:26 | src.llm_engine | INFO | Generating response for: 'hello'
+2026-05-12 19:55:33 | src.llm_engine | INFO | Response generated (2000 chars)
+2026-05-12 19:55:33 | src.rag_pipeline | INFO | Query processed — domain: voice_text, emergency: False, sources: ['voice_text_tips.txt']
+2026-05-12 19:59:42 | src.domain_classifier | INFO | Domain classified: companion (confidence: 0.040)
+2026-05-12 19:59:42 | src.domain_classifier | INFO | Embedding classification: voice_text (confidence: 0.667)
+2026-05-12 19:59:42 | src.retriever | INFO | Retrieving top-4 chunks for: 'hi...'
+2026-05-12 19:59:42 | src.retriever | INFO | Domain filter 'voice_text': 4 matches
+2026-05-12 19:59:42 | src.retriever | INFO | Retrieved 4 chunks
+2026-05-12 19:59:42 | src.llm_engine | INFO | Generating response for: 'hi'
+2026-05-12 19:59:48 | src.llm_engine | INFO | Response generated (1997 chars)
+2026-05-12 19:59:48 | src.rag_pipeline | INFO | Query processed — domain: voice_text, emergency: False, sources: ['voice_text_tips.txt']
+2026-05-12 20:07:17 | src.rag_pipeline | INFO | Initializing Senior Chatbot Pipeline...
+2026-05-12 20:07:17 | src.rag_pipeline | INFO | Step 1/3: Loading embedding model...
+2026-05-12 20:07:17 | src.embeddings | INFO | Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-05-12 20:07:26 | src.embeddings | INFO | Embedding model loaded successfully
+2026-05-12 20:07:26 | src.rag_pipeline | INFO | Step 2/3: Setting up vector store...
+2026-05-12 20:07:26 | src.embeddings | INFO | Loading FAISS index from C:\Users\shail\OneDrive\Desktop\Antigravity projects\pcos_decision_fusion\senior_chatbot\vectorstore
+2026-05-12 20:07:26 | src.embeddings | INFO | FAISS index loaded successfully
+2026-05-12 20:07:26 | src.rag_pipeline | INFO | Step 3/3: Loading LLM...
+2026-05-12 20:07:26 | src.llm_engine | INFO | Loading LLM: google/flan-t5-base
+2026-05-12 20:07:29 | src.llm_engine | INFO | LLM loaded successfully
+2026-05-12 20:07:29 | src.rag_pipeline | INFO | Pipeline initialized successfully!
+2026-05-12 20:07:39 | src.domain_classifier | INFO | Domain classified: companion (confidence: 0.040)
+2026-05-12 20:07:40 | src.domain_classifier | INFO | Embedding classification: voice_text (confidence: 0.667)
+2026-05-12 20:07:40 | src.retriever | INFO | Retrieving top-4 chunks for: 'hello...'
+2026-05-12 20:07:40 | src.retriever | INFO | Domain filter 'voice_text': 5 matches
+2026-05-12 20:07:40 | src.retriever | INFO | Retrieved 4 chunks
+2026-05-12 20:07:40 | src.llm_engine | INFO | Generating response for: 'hello'
+2026-05-12 20:07:46 | src.llm_engine | INFO | Response generated (2000 chars)
+2026-05-12 20:07:46 | src.rag_pipeline | INFO | Query processed — domain: voice_text, emergency: False, sources: ['voice_text_tips.txt']
+2026-05-12 20:08:37 | src.domain_classifier | INFO | Domain classified: companion (confidence: 0.040)
+2026-05-12 20:08:37 | src.domain_classifier | INFO | Embedding classification: voice_text (confidence: 0.667)
+2026-05-12 20:08:37 | src.retriever | INFO | Retrieving top-4 chunks for: 'hello...'
+2026-05-12 20:08:37 | src.retriever | INFO | Domain filter 'voice_text': 5 matches
+2026-05-12 20:08:37 | src.retriever | INFO | Retrieved 4 chunks
+2026-05-12 20:08:37 | src.llm_engine | INFO | Generating response for: 'hello'
+2026-05-12 20:08:51 | src.llm_engine | INFO | Response generated (2000 chars)
+2026-05-12 20:08:51 | src.rag_pipeline | INFO | Query processed — domain: voice_text, emergency: False, sources: ['voice_text_tips.txt']
+2026-05-12 20:10:42 | src.rag_pipeline | INFO | Initializing Senior Chatbot Pipeline...
+2026-05-12 20:10:42 | src.rag_pipeline | INFO | Step 1/3: Loading embedding model...
+2026-05-12 20:10:42 | src.embeddings | INFO | Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-05-12 20:10:51 | src.embeddings | INFO | Embedding model loaded successfully
+2026-05-12 20:10:51 | src.rag_pipeline | INFO | Step 2/3: Setting up vector store...
+2026-05-12 20:10:51 | src.embeddings | INFO | Loading FAISS index from C:\Users\shail\OneDrive\Desktop\Antigravity projects\pcos_decision_fusion\senior_chatbot\vectorstore
+2026-05-12 20:10:51 | src.embeddings | INFO | FAISS index loaded successfully
+2026-05-12 20:10:51 | src.rag_pipeline | INFO | Step 3/3: Loading LLM...
+2026-05-12 20:10:51 | src.llm_engine | INFO | Loading LLM: google/flan-t5-base
+2026-05-12 20:10:55 | src.llm_engine | INFO | LLM loaded successfully
+2026-05-12 20:10:55 | src.rag_pipeline | INFO | Pipeline initialized successfully!
+2026-05-12 20:11:41 | src.domain_classifier | INFO | Domain classified: companion (confidence: 0.040)
+2026-05-12 20:11:42 | src.domain_classifier | INFO | Embedding classification: companion (confidence: 1.000)
+2026-05-12 20:11:42 | src.retriever | INFO | Retrieving top-4 chunks for: 'i am feeling lonely today...'
+2026-05-12 20:11:42 | src.retriever | INFO | Domain filter 'companion': 7 matches
+2026-05-12 20:11:42 | src.retriever | INFO | Retrieved 4 chunks
+2026-05-12 20:11:42 | src.llm_engine | INFO | Generating response for: 'i am feeling lonely today'
+2026-05-12 20:11:52 | src.llm_engine | INFO | Response generated (2279 chars)
+2026-05-12 20:11:52 | src.rag_pipeline | INFO | Query processed — domain: companion, emergency: False, sources: ['companion.txt']
+2026-05-12 22:56:31 | src.domain_classifier | INFO | Domain classified: entertainment (confidence: 0.080)
+2026-05-12 22:56:31 | src.domain_classifier | INFO | Embedding classification: entertainment (confidence: 0.667)
+2026-05-12 22:56:31 | src.retriever | INFO | Retrieving top-4 chunks for: 'what books should i read...'
+2026-05-12 22:56:31 | src.retriever | INFO | Domain filter 'entertainment': 5 matches
+2026-05-12 22:56:31 | src.retriever | INFO | Retrieved 4 chunks
+2026-05-12 22:56:31 | src.llm_engine | INFO | Generating response for: 'what books should i read'
+2026-05-12 22:56:33 | src.llm_engine | INFO | Response generated (2552 chars)
+2026-05-12 22:56:33 | src.rag_pipeline | INFO | Query processed — domain: entertainment, emergency: False, sources: ['entertainment.txt']
+2026-05-14 20:44:44 | src.rag_pipeline | INFO | Initializing Senior Chatbot Pipeline...
+2026-05-14 20:44:44 | src.rag_pipeline | INFO | Step 1/3: Loading embedding model...
+2026-05-14 20:44:44 | src.embeddings | INFO | Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-05-14 20:45:02 | src.embeddings | INFO | Embedding model loaded successfully
+2026-05-14 20:45:02 | src.rag_pipeline | INFO | Step 2/3: Setting up vector store...
+2026-05-14 20:45:02 | src.embeddings | INFO | Loading FAISS index from C:\Users\shail\OneDrive\Desktop\Antigravity projects\pcos_decision_fusion\senior_chatbot\vectorstore
+2026-05-14 20:45:04 | src.embeddings | INFO | FAISS index loaded successfully
+2026-05-14 20:45:04 | src.rag_pipeline | INFO | Step 3/3: Loading LLM...
+2026-05-14 20:45:04 | src.llm_engine | INFO | Loading LLM: google/flan-t5-base
+2026-05-14 20:45:20 | src.llm_engine | INFO | LLM loaded successfully
+2026-05-14 20:45:20 | src.rag_pipeline | INFO | Pipeline initialized successfully!
+2026-05-14 20:46:40 | src.domain_classifier | INFO | Domain classified: companion (confidence: 0.040)
+2026-05-14 20:46:43 | src.domain_classifier | INFO | Embedding classification: companion (confidence: 1.000)
+2026-05-14 20:46:43 | src.retriever | INFO | Retrieving top-4 chunks for: 'i am feeling lonely today...'
+2026-05-14 20:46:44 | src.retriever | INFO | Domain filter 'companion': 7 matches
+2026-05-14 20:46:44 | src.retriever | INFO | Retrieved 4 chunks
+2026-05-14 20:46:44 | src.llm_engine | INFO | Generating response for: 'i am feeling lonely today'
+2026-05-14 20:47:45 | src.domain_classifier | INFO | No keyword match — defaulting to 'companion'
+2026-05-14 20:47:46 | src.domain_classifier | INFO | Embedding classification: companion (confidence: 0.333)
+2026-05-14 20:47:46 | src.retriever | INFO | Retrieving top-4 chunks for: 'can ...'
+2026-05-14 20:47:46 | src.retriever | INFO | Retrieved 4 chunks
+2026-05-14 20:47:46 | src.llm_engine | INFO | Generating response for: 'can '
+2026-05-14 20:47:51 | src.llm_engine | INFO | Response generated (1850 chars)
+2026-05-14 20:47:51 | src.rag_pipeline | INFO | Query processed — domain: companion, emergency: False, sources: ['voice_text_tips.txt', 'companion.txt', 'technology.txt']
+2026-05-14 20:48:06 | src.llm_engine | INFO | Response generated (2279 chars)
+2026-05-14 20:48:06 | src.rag_pipeline | INFO | Query processed — domain: companion, emergency: False, sources: ['companion.txt']
+2026-05-14 20:50:09 | src.rag_pipeline | INFO | Initializing Senior Chatbot Pipeline...
+2026-05-14 20:50:09 | src.rag_pipeline | INFO | Step 1/3: Loading embedding model...
+2026-05-14 20:50:09 | src.embeddings | INFO | Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-05-14 20:50:18 | src.embeddings | INFO | Embedding model loaded successfully
+2026-05-14 20:50:18 | src.rag_pipeline | INFO | Step 2/3: Setting up vector store...
+2026-05-14 20:50:18 | src.embeddings | INFO | Loading FAISS index from C:\Users\shail\OneDrive\Desktop\Antigravity projects\pcos_decision_fusion\senior_chatbot\vectorstore
+2026-05-14 20:50:18 | src.embeddings | INFO | FAISS index loaded successfully
+2026-05-14 20:50:18 | src.rag_pipeline | INFO | Step 3/3: Loading LLM...
+2026-05-14 20:50:18 | src.llm_engine | INFO | Loading LLM: google/flan-t5-base
+2026-05-14 20:50:21 | src.llm_engine | INFO | LLM loaded successfully
+2026-05-14 20:50:21 | src.rag_pipeline | INFO | Pipeline initialized successfully!
+2026-05-14 20:50:46 | src.domain_classifier | INFO | No keyword match — defaulting to 'companion'
+2026-05-14 20:50:47 | src.domain_classifier | INFO | Embedding classification: entertainment (confidence: 0.667)
+2026-05-14 20:50:47 | src.retriever | INFO | Retrieving top-4 chunks for: 'what should i do today for entertainment...'
+2026-05-14 20:50:47 | src.retriever | INFO | Domain filter 'entertainment': 5 matches
+2026-05-14 20:50:47 | src.retriever | INFO | Retrieved 4 chunks
+2026-05-14 20:50:47 | src.llm_engine | INFO | Generating response for: 'what should i do today for entertainment'
+2026-05-14 20:50:52 | src.llm_engine | INFO | Response generated (2588 chars)
+2026-05-14 20:50:52 | src.rag_pipeline | INFO | Query processed — domain: entertainment, emergency: False, sources: ['entertainment.txt']
+2026-05-14 20:52:54 | src.rag_pipeline | INFO | Initializing Senior Chatbot Pipeline...
+2026-05-14 20:52:54 | src.rag_pipeline | INFO | Step 1/3: Loading embedding model...
+2026-05-14 20:52:54 | src.embeddings | INFO | Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-05-14 20:53:02 | src.embeddings | INFO | Embedding model loaded successfully
+2026-05-14 20:53:02 | src.rag_pipeline | INFO | Step 2/3: Setting up vector store...
+2026-05-14 20:53:02 | src.embeddings | INFO | Loading FAISS index from C:\Users\shail\OneDrive\Desktop\Antigravity projects\pcos_decision_fusion\senior_chatbot\vectorstore
+2026-05-14 20:53:02 | src.embeddings | INFO | FAISS index loaded successfully
+2026-05-14 20:53:02 | src.rag_pipeline | INFO | Step 3/3: Loading LLM...
+2026-05-14 20:53:02 | src.llm_engine | INFO | Loading LLM: google/flan-t5-large
+2026-05-14 20:55:38 | src.llm_engine | INFO | LLM loaded successfully
+2026-05-14 20:55:38 | src.rag_pipeline | INFO | Pipeline initialized successfully!
+2026-05-14 20:57:12 | src.domain_classifier | INFO | Domain classified: entertainment (confidence: 0.040)
+2026-05-14 20:57:12 | src.domain_classifier | INFO | Embedding classification: companion (confidence: 0.667)
+2026-05-14 20:57:12 | src.retriever | INFO | Retrieving top-4 chunks for: 'what should i read today...'
+2026-05-14 20:57:12 | src.retriever | INFO | Domain filter 'companion': 4 matches
+2026-05-14 20:57:12 | src.retriever | INFO | Retrieved 4 chunks
+2026-05-14 20:57:12 | src.llm_engine | INFO | Generating response for: 'what should i read today'
+2026-05-14 20:57:37 | src.llm_engine | INFO | Response generated (0 chars)
+2026-05-14 20:57:37 | src.rag_pipeline | INFO | Query processed — domain: companion, emergency: False, sources: ['companion.txt']
+2026-05-14 20:58:50 | src.domain_classifier | INFO | No keyword match — defaulting to 'companion'
+2026-05-14 20:58:51 | src.domain_classifier | INFO | Embedding classification: entertainment (confidence: 0.667)
+2026-05-14 20:58:51 | src.retriever | INFO | Retrieving top-4 chunks for: 'what should i do for entertainment today...'
+2026-05-14 20:58:51 | src.retriever | INFO | Domain filter 'entertainment': 5 matches
+2026-05-14 20:58:51 | src.retriever | INFO | Retrieved 4 chunks
+2026-05-14 20:58:51 | src.llm_engine | INFO | Generating response for: 'what should i do for entertainment today'
+2026-05-14 20:59:39 | src.domain_classifier | INFO | No keyword match — defaulting to 'companion'
+2026-05-14 20:59:39 | src.domain_classifier | INFO | Embedding classification: entertainment (confidence: 0.667)
+2026-05-14 20:59:39 | src.retriever | INFO | Retrieving top-4 chunks for: 'what should i do for entertainment today...'
+2026-05-14 20:59:39 | src.retriever | INFO | Domain filter 'entertainment': 5 matches
+2026-05-14 20:59:39 | src.retriever | INFO | Retrieved 4 chunks
+2026-05-14 20:59:39 | src.llm_engine | INFO | Generating response for: 'what should i do for entertainment today'
+2026-05-14 20:59:43 | src.voice_handler | INFO | TTS completed (56 chars)
+2026-05-14 21:02:10 | src.llm_engine | INFO | Response generated (0 chars)
+2026-05-14 21:02:10 | src.rag_pipeline | INFO | Query processed — domain: entertainment, emergency: False, sources: ['entertainment.txt']
+2026-05-14 21:02:10 | src.voice_handler | INFO | TTS completed (0 chars)
+2026-05-14 21:02:44 | src.llm_engine | INFO | Response generated (0 chars)
+2026-05-14 21:02:44 | src.rag_pipeline | INFO | Query processed — domain: entertainment, emergency: False, sources: ['entertainment.txt']
+2026-05-14 21:03:14 | src.voice_handler | INFO | TTS completed (152 chars)
+2026-05-14 21:03:14 | src.domain_classifier | INFO | No keyword match — defaulting to 'companion'
+2026-05-14 21:03:15 | src.domain_classifier | INFO | Embedding classification: entertainment (confidence: 0.667)
+2026-05-14 21:03:15 | src.retriever | INFO | Retrieving top-4 chunks for: 'what should i do for entertainment today...'
+2026-05-14 21:03:15 | src.retriever | INFO | Domain filter 'entertainment': 5 matches
+2026-05-14 21:03:15 | src.retriever | INFO | Retrieved 4 chunks
+2026-05-14 21:03:15 | src.llm_engine | INFO | Generating response for: 'what should i do for entertainment today'
+2026-05-14 21:03:20 | src.llm_engine | INFO | Response generated (0 chars)
+2026-05-14 21:03:20 | src.rag_pipeline | INFO | Query processed — domain: entertainment, emergency: False, sources: ['entertainment.txt']
+2026-05-14 21:03:20 | src.voice_handler | INFO | TTS completed (0 chars)
+2026-05-14 21:04:57 | src.rag_pipeline | INFO | Initializing Senior Chatbot Pipeline...
+2026-05-14 21:04:57 | src.rag_pipeline | INFO | Step 1/3: Loading embedding model...
+2026-05-14 21:04:57 | src.embeddings | INFO | Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-05-14 21:05:04 | src.embeddings | INFO | Embedding model loaded successfully
+2026-05-14 21:05:04 | src.rag_pipeline | INFO | Step 2/3: Setting up vector store...
+2026-05-14 21:05:04 | src.embeddings | INFO | Loading FAISS index from C:\Users\shail\OneDrive\Desktop\Antigravity projects\pcos_decision_fusion\senior_chatbot\vectorstore
+2026-05-14 21:05:04 | src.embeddings | INFO | FAISS index loaded successfully
+2026-05-14 21:05:04 | src.rag_pipeline | INFO | Step 3/3: Loading LLM...
+2026-05-14 21:05:04 | src.llm_engine | INFO | Loading LLM: google/flan-t5-large
+2026-05-14 21:09:23 | src.rag_pipeline | INFO | Initializing Senior Chatbot Pipeline...
+2026-05-14 21:09:23 | src.rag_pipeline | INFO | Step 1/3: Loading embedding model...
+2026-05-14 21:09:23 | src.embeddings | INFO | Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-05-14 21:09:31 | src.embeddings | INFO | Embedding model loaded successfully
+2026-05-14 21:09:31 | src.rag_pipeline | INFO | Step 2/3: Setting up vector store...
+2026-05-14 21:09:31 | src.embeddings | INFO | Loading FAISS index from C:\Users\shail\OneDrive\Desktop\Antigravity projects\pcos_decision_fusion\senior_chatbot\vectorstore
+2026-05-14 21:09:31 | src.embeddings | INFO | FAISS index loaded successfully
+2026-05-14 21:09:31 | src.rag_pipeline | INFO | Step 3/3: Loading LLM...
+2026-05-14 21:09:31 | src.llm_engine | INFO | Loading LLM: google/flan-t5-large
+2026-05-14 21:09:35 | streamlit_app | ERROR | Pipeline init error: "Unknown task text2text-generation, available tasks are ['any-to-any', 'audio-classification', 'automatic-speech-recognition', 'depth-estimation', 'document-question-answering', 'feature-extraction', 'fill-mask', 'image-classification', 'image-feature-extraction', 'image-segmentation', 'image-text-to-text', 'keypoint-matching', 'mask-generation', 'ner', 'object-detection', 'sentiment-analysis', 'table-question-answering', 'text-classification', 'text-generation', 'text-to-audio', 'text-to-speech', 'token-classification', 'video-classification', 'zero-shot-audio-classification', 'zero-shot-classification', 'zero-shot-image-classification', 'zero-shot-object-detection']"
+2026-05-14 21:11:23 | src.rag_pipeline | INFO | Initializing Senior Chatbot Pipeline...
+2026-05-14 21:11:23 | src.rag_pipeline | INFO | Step 1/3: Loading embedding model...
+2026-05-14 21:11:23 | src.embeddings | INFO | Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-05-14 21:11:30 | src.embeddings | INFO | Embedding model loaded successfully
+2026-05-14 21:11:30 | src.rag_pipeline | INFO | Step 2/3: Setting up vector store...
+2026-05-14 21:11:30 | src.embeddings | INFO | Loading FAISS index from C:\Users\shail\OneDrive\Desktop\Antigravity projects\pcos_decision_fusion\senior_chatbot\vectorstore
+2026-05-14 21:11:31 | src.embeddings | INFO | FAISS index loaded successfully
+2026-05-14 21:11:31 | src.rag_pipeline | INFO | Step 3/3: Loading LLM...
+2026-05-14 21:11:31 | src.llm_engine | INFO | Loading LLM: TinyLlama/TinyLlama-1.1B-Chat-v1.0
+2026-05-14 21:17:48 | streamlit_app | WARNING | Failed to initialize MLflow: file://C:\Users\shail\OneDrive\Desktop\Antigravity projects\pcos_decision_fusion\senior_chatbot\mlruns is not a valid remote uri. For remote access on windows, please consider using a different scheme such as SMB (e.g. smb://<hostname>/<path>).
+2026-05-14 21:17:48 | src.rag_pipeline | INFO | Initializing Senior Chatbot Pipeline...
+2026-05-14 21:17:48 | src.rag_pipeline | INFO | Step 1/3: Loading embedding model...
+2026-05-14 21:17:48 | src.embeddings | INFO | Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-05-14 21:18:07 | src.embeddings | INFO | Embedding model loaded successfully
+2026-05-14 21:18:07 | src.rag_pipeline | INFO | Step 2/3: Setting up vector store...
+2026-05-14 21:18:07 | src.embeddings | INFO | Loading FAISS index from C:\Users\shail\OneDrive\Desktop\Antigravity projects\pcos_decision_fusion\senior_chatbot\vectorstore
+2026-05-14 21:18:07 | src.embeddings | INFO | FAISS index loaded successfully
+2026-05-14 21:18:07 | src.rag_pipeline | INFO | Step 3/3: Loading LLM...
+2026-05-14 21:18:07 | src.llm_engine | INFO | Loading LLM: TinyLlama/TinyLlama-1.1B-Chat-v1.0
+2026-05-14 22:38:15 | streamlit_app | WARNING | Failed to initialize MLflow: file://C:\Users\shail\OneDrive\Desktop\Antigravity projects\pcos_decision_fusion\senior_chatbot\mlruns is not a valid remote uri. For remote access on windows, please consider using a different scheme such as SMB (e.g. smb://<hostname>/<path>).
+2026-05-14 22:38:15 | streamlit_app | WARNING | Failed to initialize MLflow: file://C:\Users\shail\OneDrive\Desktop\Antigravity projects\pcos_decision_fusion\senior_chatbot\mlruns is not a valid remote uri. For remote access on windows, please consider using a different scheme such as SMB (e.g. smb://<hostname>/<path>).
+2026-05-14 22:38:15 | src.rag_pipeline | INFO | Initializing Senior Chatbot Pipeline...
+2026-05-14 22:38:15 | src.rag_pipeline | INFO | Step 1/3: Loading embedding model...
+2026-05-14 22:38:15 | src.embeddings | INFO | Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-05-14 22:38:27 | src.embeddings | INFO | Embedding model loaded successfully
+2026-05-14 22:38:27 | src.rag_pipeline | INFO | Step 2/3: Setting up vector store...
+2026-05-14 22:38:27 | src.embeddings | INFO | Loading FAISS index from C:\Users\shail\OneDrive\Desktop\Antigravity projects\pcos_decision_fusion\senior_chatbot\vectorstore
+2026-05-14 22:38:28 | src.embeddings | INFO | FAISS index loaded successfully
+2026-05-14 22:38:28 | src.rag_pipeline | INFO | Step 3/3: Loading LLM...
+2026-05-14 22:38:28 | src.llm_engine | INFO | Loading LLM: TinyLlama/TinyLlama-1.1B-Chat-v1.0
+2026-05-14 22:45:07 | streamlit_app | WARNING | Failed to initialize MLflow: file://C:\Users\shail\OneDrive\Desktop\Antigravity projects\pcos_decision_fusion\senior_chatbot\mlruns is not a valid remote uri. For remote access on windows, please consider using a different scheme such as SMB (e.g. smb://<hostname>/<path>).
+2026-05-14 22:45:07 | streamlit_app | WARNING | Failed to initialize MLflow: file://C:\Users\shail\OneDrive\Desktop\Antigravity projects\pcos_decision_fusion\senior_chatbot\mlruns is not a valid remote uri. For remote access on windows, please consider using a different scheme such as SMB (e.g. smb://<hostname>/<path>).
+2026-05-14 22:45:07 | src.rag_pipeline | INFO | Initializing Senior Chatbot Pipeline...
+2026-05-14 22:45:07 | src.rag_pipeline | INFO | Step 1/3: Loading embedding model...
+2026-05-14 22:45:07 | src.embeddings | INFO | Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-05-14 22:45:48 | src.embeddings | INFO | Embedding model loaded successfully
+2026-05-14 22:45:48 | src.rag_pipeline | INFO | Step 2/3: Setting up vector store...
+2026-05-14 22:45:48 | src.embeddings | INFO | Loading FAISS index from C:\Users\shail\OneDrive\Desktop\Antigravity projects\pcos_decision_fusion\senior_chatbot\vectorstore
+2026-05-14 22:45:48 | src.embeddings | INFO | FAISS index loaded successfully
+2026-05-14 22:45:48 | src.rag_pipeline | INFO | Step 3/3: Loading LLM...
+2026-05-14 22:45:48 | src.llm_engine | INFO | Loading LLM: TinyLlama/TinyLlama-1.1B-Chat-v1.0
+2026-05-14 23:01:33 | streamlit_app | WARNING | Failed to initialize MLflow: file://C:\Users\shail\OneDrive\Desktop\Antigravity projects\pcos_decision_fusion\senior_chatbot\mlruns is not a valid remote uri. For remote access on windows, please consider using a different scheme such as SMB (e.g. smb://<hostname>/<path>).
+2026-05-14 23:01:33 | src.rag_pipeline | INFO | Initializing Senior Chatbot Pipeline...
+2026-05-14 23:01:33 | src.rag_pipeline | INFO | Step 1/3: Loading embedding model...
+2026-05-14 23:01:33 | src.embeddings | INFO | Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-05-14 23:01:45 | src.embeddings | INFO | Embedding model loaded successfully
+2026-05-14 23:01:45 | src.rag_pipeline | INFO | Step 2/3: Setting up vector store...
+2026-05-14 23:01:45 | src.embeddings | INFO | Loading FAISS index from C:\Users\shail\OneDrive\Desktop\Antigravity projects\pcos_decision_fusion\senior_chatbot\vectorstore
+2026-05-14 23:01:45 | src.embeddings | INFO | FAISS index loaded successfully
+2026-05-14 23:01:45 | src.rag_pipeline | INFO | Step 3/3: Loading LLM...
+2026-05-14 23:01:45 | src.llm_engine | INFO | Loading LLM via Groq: llama3-8b-8192
+2026-05-14 23:01:46 | streamlit_app | ERROR | Pipeline init error: The api_key client option must be set either by passing api_key to the client or by setting the GROQ_API_KEY environment variable
+2026-05-14 23:16:41 | streamlit_app | WARNING | Failed to initialize MLflow: file://C:\Users\shail\OneDrive\Desktop\Antigravity projects\pcos_decision_fusion\senior_chatbot\mlruns is not a valid remote uri. For remote access on windows, please consider using a different scheme such as SMB (e.g. smb://<hostname>/<path>).
+2026-05-14 23:16:41 | src.rag_pipeline | INFO | Initializing Senior Chatbot Pipeline...
+2026-05-14 23:16:41 | src.rag_pipeline | INFO | Step 1/3: Loading embedding model...
+2026-05-14 23:16:41 | src.embeddings | INFO | Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-05-14 23:17:36 | src.embeddings | INFO | Embedding model loaded successfully
+2026-05-14 23:17:36 | src.rag_pipeline | INFO | Step 2/3: Setting up vector store...
+2026-05-14 23:17:36 | src.embeddings | INFO | Loading FAISS index from C:\Users\shail\OneDrive\Desktop\Antigravity projects\pcos_decision_fusion\senior_chatbot\vectorstore
+2026-05-14 23:17:37 | src.embeddings | INFO | FAISS index loaded successfully
+2026-05-14 23:17:37 | src.rag_pipeline | INFO | Step 3/3: Loading LLM...
+2026-05-14 23:17:37 | src.llm_engine | INFO | Loading LLM via Groq: llama3-8b-8192
+2026-05-14 23:17:38 | streamlit_app | WARNING | Failed to initialize MLflow: file://C:\Users\shail\OneDrive\Desktop\Antigravity projects\pcos_decision_fusion\senior_chatbot\mlruns is not a valid remote uri. For remote access on windows, please consider using a different scheme such as SMB (e.g. smb://<hostname>/<path>).
+2026-05-14 23:17:38 | src.rag_pipeline | INFO | Initializing Senior Chatbot Pipeline...
+2026-05-14 23:17:38 | src.rag_pipeline | INFO | Step 1/3: Loading embedding model...
+2026-05-14 23:17:38 | src.embeddings | INFO | Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-05-14 23:17:52 | src.embeddings | INFO | Embedding model loaded successfully
+2026-05-14 23:17:52 | src.rag_pipeline | INFO | Step 2/3: Setting up vector store...
+2026-05-14 23:17:52 | src.embeddings | INFO | Loading FAISS index from C:\Users\shail\OneDrive\Desktop\Antigravity projects\pcos_decision_fusion\senior_chatbot\vectorstore
+2026-05-14 23:17:52 | src.embeddings | INFO | FAISS index loaded successfully
+2026-05-14 23:17:52 | src.rag_pipeline | INFO | Step 3/3: Loading LLM...
+2026-05-14 23:17:52 | src.llm_engine | INFO | Loading LLM via Groq: llama3-8b-8192
+2026-05-14 23:17:52 | streamlit_app | ERROR | Pipeline init error: The api_key client option must be set either by passing api_key to the client or by setting the GROQ_API_KEY environment variable
+2026-05-14 23:22:22 | streamlit_app | WARNING | Failed to initialize MLflow: file://C:\Users\shail\OneDrive\Desktop\Antigravity projects\pcos_decision_fusion\senior_chatbot\mlruns is not a valid remote uri. For remote access on windows, please consider using a different scheme such as SMB (e.g. smb://<hostname>/<path>).
+2026-05-14 23:22:22 | src.rag_pipeline | INFO | Initializing Senior Chatbot Pipeline...
+2026-05-14 23:22:22 | src.rag_pipeline | INFO | Step 1/3: Loading embedding model...
+2026-05-14 23:22:22 | src.embeddings | INFO | Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-05-14 23:22:29 | src.embeddings | INFO | Embedding model loaded successfully
+2026-05-14 23:22:29 | src.rag_pipeline | INFO | Step 2/3: Setting up vector store...
+2026-05-14 23:22:29 | src.embeddings | INFO | Loading FAISS index from C:\Users\shail\OneDrive\Desktop\Antigravity projects\pcos_decision_fusion\senior_chatbot\vectorstore
+2026-05-14 23:22:29 | src.embeddings | INFO | FAISS index loaded successfully
+2026-05-14 23:22:29 | src.rag_pipeline | INFO | Step 3/3: Loading LLM...
+2026-05-14 23:22:29 | src.llm_engine | INFO | Loading LLM via Groq: llama3-8b-8192
+2026-05-14 23:22:29 | streamlit_app | ERROR | Pipeline init error: The api_key client option must be set either by passing api_key to the client or by setting the GROQ_API_KEY environment variable
+2026-05-14 23:23:46 | streamlit_app | WARNING | Failed to initialize MLflow: file://C:\Users\shail\OneDrive\Desktop\Antigravity projects\pcos_decision_fusion\senior_chatbot\mlruns is not a valid remote uri. For remote access on windows, please consider using a different scheme such as SMB (e.g. smb://<hostname>/<path>).
+2026-05-14 23:23:46 | src.rag_pipeline | INFO | Initializing Senior Chatbot Pipeline...
+2026-05-14 23:23:46 | src.rag_pipeline | INFO | Step 1/3: Loading embedding model...
+2026-05-14 23:23:46 | src.embeddings | INFO | Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-05-14 23:24:01 | src.embeddings | INFO | Embedding model loaded successfully
+2026-05-14 23:24:01 | src.rag_pipeline | INFO | Step 2/3: Setting up vector store...
+2026-05-14 23:24:01 | src.embeddings | INFO | Loading FAISS index from C:\Users\shail\OneDrive\Desktop\Antigravity projects\pcos_decision_fusion\senior_chatbot\vectorstore
+2026-05-14 23:24:01 | src.embeddings | INFO | FAISS index loaded successfully
+2026-05-14 23:24:01 | src.rag_pipeline | INFO | Step 3/3: Loading LLM...
+2026-05-14 23:24:01 | src.llm_engine | INFO | Loading LLM via Groq: llama3-8b-8192
+2026-05-14 23:24:02 | src.llm_engine | INFO | LLM loaded successfully
+2026-05-14 23:24:02 | src.rag_pipeline | INFO | Pipeline initialized successfully!
+2026-05-14 23:24:32 | streamlit_app | WARNING | MLflow logging failed: file://C:\Users\shail\OneDrive\Desktop\Antigravity projects\pcos_decision_fusion\senior_chatbot\mlruns is not a valid remote uri. For remote access on windows, please consider using a different scheme such as SMB (e.g. smb://<hostname>/<path>).
+2026-05-14 23:24:41 | src.voice_handler | INFO | TTS completed (56 chars)
+2026-05-14 23:24:51 | src.domain_classifier | INFO | No keyword match — defaulting to 'companion'
+2026-05-14 23:24:51 | src.domain_classifier | INFO | Embedding classification: entertainment (confidence: 0.667)
+2026-05-14 23:24:51 | src.retriever | INFO | Retrieving top-4 chunks for: 'what do i do for entertainment today...'
+2026-05-14 23:24:51 | src.retriever | INFO | Domain filter 'entertainment': 5 matches
+2026-05-14 23:24:51 | src.retriever | INFO | Retrieved 4 chunks
+2026-05-14 23:24:51 | src.llm_engine | INFO | Generating response for: 'what do i do for entertainment today'
+2026-05-14 23:24:52 | src.llm_engine | ERROR | LLM generation error: Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-05-14 23:24:52 | src.rag_pipeline | INFO | Query processed — domain: entertainment, emergency: False, sources: ['entertainment.txt']
+2026-05-14 23:24:52 | streamlit_app | WARNING | MLflow logging failed: file://C:\Users\shail\OneDrive\Desktop\Antigravity projects\pcos_decision_fusion\senior_chatbot\mlruns is not a valid remote uri. For remote access on windows, please consider using a different scheme such as SMB (e.g. smb://<hostname>/<path>).
+2026-05-14 23:24:59 | src.voice_handler | INFO | TTS completed (92 chars)
+2026-05-14 23:25:06 | src.domain_classifier | INFO | No keyword match — defaulting to 'companion'
+2026-05-14 23:25:06 | src.domain_classifier | INFO | Embedding classification: companion (confidence: 1.000)
+2026-05-14 23:25:06 | src.retriever | INFO | Retrieving top-4 chunks for: 'what should i do today...'
+2026-05-14 23:25:06 | src.retriever | INFO | Domain filter 'companion': 4 matches
+2026-05-14 23:25:06 | src.retriever | INFO | Retrieved 4 chunks
+2026-05-14 23:25:06 | src.llm_engine | INFO | Generating response for: 'what should i do today'
+2026-05-14 23:25:07 | src.llm_engine | ERROR | LLM generation error: Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-05-14 23:25:07 | src.rag_pipeline | INFO | Query processed — domain: companion, emergency: False, sources: ['companion.txt']
+2026-05-14 23:25:07 | streamlit_app | WARNING | MLflow logging failed: file://C:\Users\shail\OneDrive\Desktop\Antigravity projects\pcos_decision_fusion\senior_chatbot\mlruns is not a valid remote uri. For remote access on windows, please consider using a different scheme such as SMB (e.g. smb://<hostname>/<path>).
+2026-05-14 23:25:14 | src.voice_handler | INFO | TTS completed (92 chars)
+2026-05-14 23:25:19 | src.domain_classifier | INFO | Domain classified: entertainment (confidence: 0.040)
+2026-05-14 23:25:19 | src.domain_classifier | INFO | Embedding classification: entertainment (confidence: 1.000)
+2026-05-14 23:25:19 | src.retriever | INFO | Retrieving top-4 chunks for: 'can you recommend me some books...'
+2026-05-14 23:25:19 | src.retriever | INFO | Domain filter 'entertainment': 5 matches
+2026-05-14 23:25:19 | src.retriever | INFO | Retrieved 4 chunks
+2026-05-14 23:25:19 | src.llm_engine | INFO | Generating response for: 'can you recommend me some books'
+2026-05-14 23:25:20 | src.llm_engine | ERROR | LLM generation error: Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-05-14 23:25:20 | src.rag_pipeline | INFO | Query processed — domain: entertainment, emergency: False, sources: ['entertainment.txt']
+2026-05-14 23:25:20 | streamlit_app | WARNING | MLflow logging failed: file://C:\Users\shail\OneDrive\Desktop\Antigravity projects\pcos_decision_fusion\senior_chatbot\mlruns is not a valid remote uri. For remote access on windows, please consider using a different scheme such as SMB (e.g. smb://<hostname>/<path>).
+2026-05-14 23:25:27 | src.voice_handler | INFO | TTS completed (92 chars)
+2026-05-14 23:25:35 | src.domain_classifier | INFO | Domain classified: banking (confidence: 0.050)
+2026-05-14 23:25:35 | src.domain_classifier | INFO | Embedding classification: banking (confidence: 0.333)
+2026-05-14 23:25:35 | src.retriever | INFO | Retrieving top-4 chunks for: 'what should i do for banking safety...'
+2026-05-14 23:25:35 | src.retriever | INFO | Retrieved 4 chunks
+2026-05-14 23:25:35 | src.llm_engine | INFO | Generating response for: 'what should i do for banking safety'
+2026-05-14 23:25:35 | src.llm_engine | ERROR | LLM generation error: Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-05-14 23:25:35 | src.rag_pipeline | INFO | Query processed — domain: banking, emergency: False, sources: ['technology.txt', 'banking.txt', 'emergency.txt']
+2026-05-14 23:25:35 | streamlit_app | WARNING | MLflow logging failed: file://C:\Users\shail\OneDrive\Desktop\Antigravity projects\pcos_decision_fusion\senior_chatbot\mlruns is not a valid remote uri. For remote access on windows, please consider using a different scheme such as SMB (e.g. smb://<hostname>/<path>).
+2026-05-14 23:25:42 | src.voice_handler | INFO | TTS completed (92 chars)
+2026-05-14 23:26:15 | streamlit_app | WARNING | MLflow logging failed: file://C:\Users\shail\OneDrive\Desktop\Antigravity projects\pcos_decision_fusion\senior_chatbot\mlruns is not a valid remote uri. For remote access on windows, please consider using a different scheme such as SMB (e.g. smb://<hostname>/<path>).
+2026-05-14 23:26:21 | src.voice_handler | INFO | TTS completed (56 chars)
+2026-05-14 23:26:29 | src.domain_classifier | INFO | Domain classified: emergency (confidence: 0.050)
+2026-05-14 23:26:29 | src.domain_classifier | INFO | Embedding classification: voice_text (confidence: 0.333)
+2026-05-14 23:26:29 | src.retriever | INFO | Retrieving top-4 chunks for: 'what can you help me in...'
+2026-05-14 23:26:29 | src.retriever | INFO | Retrieved 4 chunks
+2026-05-14 23:26:29 | src.llm_engine | INFO | Generating response for: 'what can you help me in'
+2026-05-14 23:26:29 | src.llm_engine | ERROR | LLM generation error: Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-05-14 23:26:29 | src.rag_pipeline | INFO | Query processed — domain: emergency, emergency: True, sources: ['technology.txt', 'companion.txt', 'voice_text_tips.txt', 'entertainment.txt']
+2026-05-14 23:26:29 | streamlit_app | WARNING | MLflow logging failed: file://C:\Users\shail\OneDrive\Desktop\Antigravity projects\pcos_decision_fusion\senior_chatbot\mlruns is not a valid remote uri. For remote access on windows, please consider using a different scheme such as SMB (e.g. smb://<hostname>/<path>).
+2026-05-14 23:26:42 | src.voice_handler | INFO | TTS completed (170 chars)
