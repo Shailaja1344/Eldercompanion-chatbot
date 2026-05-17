@@ -376,3 +376,384 @@
 2026-05-14 23:26:29 | src.rag_pipeline | INFO | Query processed — domain: emergency, emergency: True, sources: ['technology.txt', 'companion.txt', 'voice_text_tips.txt', 'entertainment.txt']
 2026-05-14 23:26:29 | streamlit_app | WARNING | MLflow logging failed: file://C:\Users\shail\OneDrive\Desktop\Antigravity projects\pcos_decision_fusion\senior_chatbot\mlruns is not a valid remote uri. For remote access on windows, please consider using a different scheme such as SMB (e.g. smb://<hostname>/<path>).
 2026-05-14 23:26:42 | src.voice_handler | INFO | TTS completed (170 chars)
+2026-05-15 14:15:44 | streamlit_app | WARNING | Failed to initialize MLflow: file://C:\Users\shail\OneDrive\Desktop\senior citizen chatbot\mlruns is not a valid remote uri. For remote access on windows, please consider using a different scheme such as SMB (e.g. smb://<hostname>/<path>).
+2026-05-15 14:15:44 | src.rag_pipeline | INFO | Initializing Senior Chatbot Pipeline...
+2026-05-15 14:15:44 | src.rag_pipeline | INFO | Step 1/3: Loading embedding model...
+2026-05-15 14:15:44 | src.embeddings | INFO | Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-05-15 14:15:51 | src.embeddings | INFO | Embedding model loaded successfully
+2026-05-15 14:15:51 | src.rag_pipeline | INFO | Step 2/3: Setting up vector store...
+2026-05-15 14:15:51 | src.embeddings | INFO | Loading FAISS index from C:\Users\shail\OneDrive\Desktop\senior citizen chatbot\vectorstore
+2026-05-15 14:15:52 | src.embeddings | INFO | FAISS index loaded successfully
+2026-05-15 14:15:52 | src.rag_pipeline | INFO | Step 3/3: Loading LLM...
+2026-05-15 14:15:52 | src.llm_engine | INFO | Loading LLM via Groq: llama-3.1-8b-instant
+2026-05-15 14:15:53 | src.llm_engine | INFO | LLM loaded successfully
+2026-05-15 14:15:53 | src.rag_pipeline | INFO | Pipeline initialized successfully!
+2026-05-15 14:16:57 | streamlit_app | WARNING | MLflow logging failed: file://C:\Users\shail\OneDrive\Desktop\senior citizen chatbot\mlruns is not a valid remote uri. For remote access on windows, please consider using a different scheme such as SMB (e.g. smb://<hostname>/<path>).
+2026-05-15 14:17:04 | src.voice_handler | INFO | TTS completed (56 chars)
+2026-05-15 14:17:13 | streamlit_app | WARNING | MLflow logging failed: file://C:\Users\shail\OneDrive\Desktop\senior citizen chatbot\mlruns is not a valid remote uri. For remote access on windows, please consider using a different scheme such as SMB (e.g. smb://<hostname>/<path>).
+2026-05-15 14:17:19 | src.voice_handler | INFO | TTS completed (56 chars)
+2026-05-15 14:17:30 | src.domain_classifier | INFO | No keyword match — defaulting to 'companion'
+2026-05-15 14:17:30 | src.domain_classifier | INFO | Embedding classification: companion (confidence: 1.000)
+2026-05-15 14:17:30 | src.retriever | INFO | Retrieving top-4 chunks for: 'what should i do today...'
+2026-05-15 14:17:30 | src.retriever | INFO | Domain filter 'companion': 4 matches
+2026-05-15 14:17:30 | src.retriever | INFO | Retrieved 4 chunks
+2026-05-15 14:17:30 | src.llm_engine | INFO | Generating response for: 'what should i do today'
+2026-05-15 14:17:32 | src.llm_engine | INFO | Response generated (2628 chars)
+2026-05-15 14:17:32 | src.rag_pipeline | INFO | Query processed — domain: companion, emergency: False, sources: ['companion.txt']
+2026-05-15 14:17:32 | streamlit_app | WARNING | MLflow logging failed: file://C:\Users\shail\OneDrive\Desktop\senior citizen chatbot\mlruns is not a valid remote uri. For remote access on windows, please consider using a different scheme such as SMB (e.g. smb://<hostname>/<path>).
+2026-05-15 14:20:23 | src.voice_handler | INFO | TTS completed (2628 chars)
+2026-05-15 15:07:01 | streamlit_app | WARNING | MLflow logging failed: file://C:\Users\shail\OneDrive\Desktop\senior citizen chatbot\mlruns is not a valid remote uri. For remote access on windows, please consider using a different scheme such as SMB (e.g. smb://<hostname>/<path>).
+2026-05-15 15:07:38 | src.domain_classifier | INFO | No keyword match — defaulting to 'companion'
+2026-05-15 15:07:38 | src.domain_classifier | INFO | Embedding classification: companion (confidence: 1.000)
+2026-05-15 15:07:38 | src.retriever | INFO | Retrieving top-4 chunks for: 'what should i do today...'
+2026-05-15 15:07:39 | src.retriever | INFO | Domain filter 'companion': 4 matches
+2026-05-15 15:07:39 | src.retriever | INFO | Retrieved 4 chunks
+2026-05-15 15:07:39 | src.llm_engine | INFO | Generating response for: 'what should i do today'
+2026-05-15 15:07:41 | src.llm_engine | INFO | Response generated (3626 chars)
+2026-05-15 15:07:41 | src.rag_pipeline | INFO | Query processed — domain: companion, emergency: False, sources: ['companion.txt']
+2026-05-15 15:07:41 | streamlit_app | WARNING | MLflow logging failed: file://C:\Users\shail\OneDrive\Desktop\senior citizen chatbot\mlruns is not a valid remote uri. For remote access on windows, please consider using a different scheme such as SMB (e.g. smb://<hostname>/<path>).
+2026-05-15 15:09:55 | streamlit_app | WARNING | MLflow logging failed: file://C:\Users\shail\OneDrive\Desktop\senior citizen chatbot\mlruns is not a valid remote uri. For remote access on windows, please consider using a different scheme such as SMB (e.g. smb://<hostname>/<path>).
+2026-05-15 15:10:01 | src.voice_handler | INFO | TTS completed (56 chars)
+2026-05-15 15:10:19 | streamlit_app | WARNING | MLflow logging failed: file://C:\Users\shail\OneDrive\Desktop\senior citizen chatbot\mlruns is not a valid remote uri. For remote access on windows, please consider using a different scheme such as SMB (e.g. smb://<hostname>/<path>).
+2026-05-15 15:10:29 | src.voice_handler | INFO | TTS completed (152 chars)
+2026-05-15 15:11:08 | streamlit_app | WARNING | MLflow logging failed: file://C:\Users\shail\OneDrive\Desktop\senior citizen chatbot\mlruns is not a valid remote uri. For remote access on windows, please consider using a different scheme such as SMB (e.g. smb://<hostname>/<path>).
+2026-05-16 00:23:01 | streamlit_app | WARNING | Failed to initialize MLflow: file://C:\Users\shail\OneDrive\Desktop\senior citizen chatbot\mlruns is not a valid remote uri. For remote access on windows, please consider using a different scheme such as SMB (e.g. smb://<hostname>/<path>).
+2026-05-16 00:23:01 | src.rag_pipeline | INFO | Initializing Senior Chatbot Pipeline...
+2026-05-16 00:23:01 | src.rag_pipeline | INFO | Step 1/3: Loading embedding model...
+2026-05-16 00:23:01 | src.embeddings | INFO | Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-05-16 00:23:10 | src.embeddings | INFO | Embedding model loaded successfully
+2026-05-16 00:23:10 | src.rag_pipeline | INFO | Step 2/3: Setting up vector store...
+2026-05-16 00:23:10 | src.embeddings | INFO | Loading FAISS index from C:\Users\shail\OneDrive\Desktop\senior citizen chatbot\vectorstore
+2026-05-16 00:23:11 | src.embeddings | INFO | FAISS index loaded successfully
+2026-05-16 00:23:11 | src.rag_pipeline | INFO | Step 3/3: Loading LLM...
+2026-05-16 00:23:11 | src.llm_engine | INFO | Loading LLM via Groq: llama-3.1-8b-instant
+2026-05-16 00:23:12 | src.llm_engine | INFO | LLM loaded successfully
+2026-05-16 00:23:12 | src.rag_pipeline | INFO | Pipeline initialized successfully!
+2026-05-16 00:23:54 | streamlit_app | WARNING | MLflow logging failed: file://C:\Users\shail\OneDrive\Desktop\senior citizen chatbot\mlruns is not a valid remote uri. For remote access on windows, please consider using a different scheme such as SMB (e.g. smb://<hostname>/<path>).
+2026-05-16 00:26:58 | src.domain_classifier | INFO | Domain classified: emergency (confidence: 0.050)
+2026-05-16 00:27:00 | src.domain_classifier | INFO | Embedding classification: entertainment (confidence: 0.667)
+2026-05-16 00:27:00 | src.retriever | INFO | Retrieving top-4 chunks for: 'can you help me...'
+2026-05-16 00:27:00 | src.retriever | INFO | Domain filter 'entertainment': 4 matches
+2026-05-16 00:27:00 | src.retriever | INFO | Retrieved 4 chunks
+2026-05-16 00:27:00 | src.llm_engine | INFO | Generating response for: 'can you help me'
+2026-05-16 00:27:02 | src.llm_engine | INFO | Response generated (3577 chars)
+2026-05-16 00:27:02 | src.rag_pipeline | INFO | Query processed — domain: entertainment, emergency: True, sources: ['entertainment.txt']
+2026-05-16 00:27:02 | streamlit_app | WARNING | MLflow logging failed: file://C:\Users\shail\OneDrive\Desktop\senior citizen chatbot\mlruns is not a valid remote uri. For remote access on windows, please consider using a different scheme such as SMB (e.g. smb://<hostname>/<path>).
+2026-05-16 00:27:22 | src.domain_classifier | INFO | No keyword match — defaulting to 'companion'
+2026-05-16 00:27:22 | src.domain_classifier | INFO | Embedding classification: companion (confidence: 0.667)
+2026-05-16 00:27:22 | src.retriever | INFO | Retrieving top-4 chunks for: 'what should i ciook today...'
+2026-05-16 00:27:23 | src.retriever | INFO | Domain filter 'companion': 4 matches
+2026-05-16 00:27:23 | src.retriever | INFO | Retrieved 4 chunks
+2026-05-16 00:27:23 | src.llm_engine | INFO | Generating response for: 'what should i ciook today'
+2026-05-16 00:27:24 | src.llm_engine | INFO | Response generated (2025 chars)
+2026-05-16 00:27:24 | src.rag_pipeline | INFO | Query processed — domain: companion, emergency: False, sources: ['companion.txt']
+2026-05-16 00:27:24 | streamlit_app | WARNING | MLflow logging failed: file://C:\Users\shail\OneDrive\Desktop\senior citizen chatbot\mlruns is not a valid remote uri. For remote access on windows, please consider using a different scheme such as SMB (e.g. smb://<hostname>/<path>).
+2026-05-16 00:45:29 | streamlit_app | WARNING | Failed to initialize MLflow: file://C:\Users\shail\OneDrive\Desktop\senior citizen chatbot\mlruns is not a valid remote uri. For remote access on windows, please consider using a different scheme such as SMB (e.g. smb://<hostname>/<path>).
+2026-05-16 00:45:29 | src.rag_pipeline | INFO | Initializing Senior Chatbot Pipeline...
+2026-05-16 00:45:29 | src.rag_pipeline | INFO | Step 1/3: Loading embedding model...
+2026-05-16 00:45:29 | src.embeddings | INFO | Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-05-16 00:45:37 | src.embeddings | INFO | Embedding model loaded successfully
+2026-05-16 00:45:37 | src.rag_pipeline | INFO | Step 2/3: Setting up vector store...
+2026-05-16 00:45:37 | src.embeddings | INFO | Loading FAISS index from C:\Users\shail\OneDrive\Desktop\senior citizen chatbot\vectorstore
+2026-05-16 00:45:37 | src.embeddings | INFO | FAISS index loaded successfully
+2026-05-16 00:45:37 | src.rag_pipeline | INFO | Step 3/3: Loading LLM...
+2026-05-16 00:45:37 | src.llm_engine | INFO | Loading LLM via Groq: llama-3.1-8b-instant
+2026-05-16 00:45:39 | src.llm_engine | INFO | LLM loaded successfully
+2026-05-16 00:45:39 | src.rag_pipeline | INFO | Pipeline initialized successfully!
+2026-05-16 00:48:53 | streamlit_app | WARNING | Failed to initialize MLflow: file://C:\Users\shail\OneDrive\Desktop\senior citizen chatbot\mlruns is not a valid remote uri. For remote access on windows, please consider using a different scheme such as SMB (e.g. smb://<hostname>/<path>).
+2026-05-16 00:48:53 | src.rag_pipeline | INFO | Initializing Senior Chatbot Pipeline...
+2026-05-16 00:48:53 | src.rag_pipeline | INFO | Step 1/3: Loading embedding model...
+2026-05-16 00:48:53 | src.embeddings | INFO | Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-05-16 00:49:00 | src.embeddings | INFO | Embedding model loaded successfully
+2026-05-16 00:49:00 | src.rag_pipeline | INFO | Step 2/3: Setting up vector store...
+2026-05-16 00:49:00 | src.embeddings | INFO | Loading FAISS index from C:\Users\shail\OneDrive\Desktop\senior citizen chatbot\vectorstore
+2026-05-16 00:49:00 | src.embeddings | INFO | FAISS index loaded successfully
+2026-05-16 00:49:00 | src.rag_pipeline | INFO | Step 3/3: Loading LLM...
+2026-05-16 00:49:00 | src.llm_engine | INFO | Loading LLM via Groq: llama-3.1-8b-instant
+2026-05-16 00:49:01 | src.llm_engine | INFO | LLM loaded successfully
+2026-05-16 00:49:01 | src.rag_pipeline | INFO | Pipeline initialized successfully!
+2026-05-16 00:52:40 | streamlit_app | WARNING | Failed to initialize MLflow: file://C:\Users\shail\OneDrive\Desktop\senior citizen chatbot\mlruns is not a valid remote uri. For remote access on windows, please consider using a different scheme such as SMB (e.g. smb://<hostname>/<path>).
+2026-05-16 00:52:40 | src.rag_pipeline | INFO | Initializing Senior Chatbot Pipeline...
+2026-05-16 00:52:40 | src.rag_pipeline | INFO | Step 1/3: Loading embedding model...
+2026-05-16 00:52:40 | src.embeddings | INFO | Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-05-16 00:52:49 | src.embeddings | INFO | Embedding model loaded successfully
+2026-05-16 00:52:49 | src.rag_pipeline | INFO | Step 2/3: Setting up vector store...
+2026-05-16 00:52:49 | src.embeddings | INFO | Loading FAISS index from C:\Users\shail\OneDrive\Desktop\senior citizen chatbot\vectorstore
+2026-05-16 00:52:49 | src.embeddings | INFO | FAISS index loaded successfully
+2026-05-16 00:52:49 | src.rag_pipeline | INFO | Step 3/3: Loading LLM...
+2026-05-16 00:52:49 | src.llm_engine | INFO | Loading LLM via Groq: llama-3.1-8b-instant
+2026-05-16 00:52:49 | src.llm_engine | INFO | LLM loaded successfully
+2026-05-16 00:52:49 | src.rag_pipeline | INFO | Pipeline initialized successfully!
+2026-05-16 01:08:14 | streamlit_app | WARNING | Failed to initialize MLflow: file://C:\Users\shail\OneDrive\Desktop\senior citizen chatbot\mlruns is not a valid remote uri. For remote access on windows, please consider using a different scheme such as SMB (e.g. smb://<hostname>/<path>).
+2026-05-16 01:08:14 | src.rag_pipeline | INFO | Initializing Senior Chatbot Pipeline...
+2026-05-16 01:08:14 | src.rag_pipeline | INFO | Step 1/3: Loading embedding model...
+2026-05-16 01:08:14 | src.embeddings | INFO | Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-05-16 01:08:23 | src.embeddings | INFO | Embedding model loaded successfully
+2026-05-16 01:08:23 | src.rag_pipeline | INFO | Step 2/3: Setting up vector store...
+2026-05-16 01:08:23 | src.embeddings | INFO | Loading FAISS index from C:\Users\shail\OneDrive\Desktop\senior citizen chatbot\vectorstore
+2026-05-16 01:08:23 | src.embeddings | INFO | FAISS index loaded successfully
+2026-05-16 01:08:23 | src.rag_pipeline | INFO | Step 3/3: Loading LLM...
+2026-05-16 01:08:23 | src.llm_engine | INFO | Loading LLM via Groq: llama-3.1-8b-instant
+2026-05-16 01:08:24 | src.llm_engine | INFO | LLM loaded successfully
+2026-05-16 01:08:24 | src.rag_pipeline | INFO | Pipeline initialized successfully!
+2026-05-16 13:21:51 | streamlit_app | WARNING | Failed to initialize MLflow: file://C:\Users\shail\OneDrive\Desktop\senior citizen chatbot\mlruns is not a valid remote uri. For remote access on windows, please consider using a different scheme such as SMB (e.g. smb://<hostname>/<path>).
+2026-05-16 13:21:51 | src.rag_pipeline | INFO | Initializing Senior Chatbot Pipeline...
+2026-05-16 13:21:51 | src.rag_pipeline | INFO | Step 1/3: Loading embedding model...
+2026-05-16 13:21:51 | src.embeddings | INFO | Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-05-16 13:22:01 | src.embeddings | INFO | Embedding model loaded successfully
+2026-05-16 13:22:01 | src.rag_pipeline | INFO | Step 2/3: Setting up vector store...
+2026-05-16 13:22:01 | src.embeddings | INFO | Loading FAISS index from C:\Users\shail\OneDrive\Desktop\senior citizen chatbot\vectorstore
+2026-05-16 13:22:01 | src.embeddings | INFO | FAISS index loaded successfully
+2026-05-16 13:22:01 | src.rag_pipeline | INFO | Step 3/3: Loading LLM...
+2026-05-16 13:22:01 | src.llm_engine | INFO | Loading LLM via Groq: llama-3.1-8b-instant
+2026-05-16 13:22:01 | src.llm_engine | INFO | LLM loaded successfully
+2026-05-16 13:22:01 | src.rag_pipeline | INFO | Pipeline initialized successfully!
+2026-05-16 13:26:55 | streamlit_app | WARNING | Failed to initialize MLflow: file://C:\Users\shail\OneDrive\Desktop\senior citizen chatbot\mlruns is not a valid remote uri. For remote access on windows, please consider using a different scheme such as SMB (e.g. smb://<hostname>/<path>).
+2026-05-16 13:26:55 | src.rag_pipeline | INFO | Initializing Senior Chatbot Pipeline...
+2026-05-16 13:26:55 | src.rag_pipeline | INFO | Step 1/3: Loading embedding model...
+2026-05-16 13:26:55 | src.embeddings | INFO | Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-05-16 13:27:04 | src.embeddings | INFO | Embedding model loaded successfully
+2026-05-16 13:27:04 | src.rag_pipeline | INFO | Step 2/3: Setting up vector store...
+2026-05-16 13:27:04 | src.embeddings | INFO | Loading FAISS index from C:\Users\shail\OneDrive\Desktop\senior citizen chatbot\vectorstore
+2026-05-16 13:27:04 | src.embeddings | INFO | FAISS index loaded successfully
+2026-05-16 13:27:04 | src.rag_pipeline | INFO | Step 3/3: Loading LLM...
+2026-05-16 13:27:04 | src.llm_engine | INFO | Loading LLM via Groq: llama-3.1-8b-instant
+2026-05-16 13:27:04 | src.llm_engine | INFO | LLM loaded successfully
+2026-05-16 13:27:04 | src.rag_pipeline | INFO | Pipeline initialized successfully!
+2026-05-16 13:37:14 | streamlit_app | WARNING | Failed to initialize MLflow: file://C:\Users\shail\OneDrive\Desktop\senior citizen chatbot\mlruns is not a valid remote uri. For remote access on windows, please consider using a different scheme such as SMB (e.g. smb://<hostname>/<path>).
+2026-05-16 13:37:14 | src.rag_pipeline | INFO | Initializing Senior Chatbot Pipeline...
+2026-05-16 13:37:14 | src.rag_pipeline | INFO | Step 1/3: Loading embedding model...
+2026-05-16 13:37:14 | src.embeddings | INFO | Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-05-16 13:37:21 | src.embeddings | INFO | Embedding model loaded successfully
+2026-05-16 13:37:21 | src.rag_pipeline | INFO | Step 2/3: Setting up vector store...
+2026-05-16 13:37:21 | src.embeddings | INFO | Loading FAISS index from C:\Users\shail\OneDrive\Desktop\senior citizen chatbot\vectorstore
+2026-05-16 13:37:21 | src.embeddings | INFO | FAISS index loaded successfully
+2026-05-16 13:37:21 | src.rag_pipeline | INFO | Step 3/3: Loading LLM...
+2026-05-16 13:37:21 | src.llm_engine | INFO | Loading LLM via Groq: llama-3.1-8b-instant
+2026-05-16 13:37:22 | src.llm_engine | INFO | LLM loaded successfully
+2026-05-16 13:37:22 | src.rag_pipeline | INFO | Pipeline initialized successfully!
+2026-05-16 13:38:01 | streamlit_app | WARNING | Failed to initialize MLflow: file://C:\Users\shail\OneDrive\Desktop\senior citizen chatbot\mlruns is not a valid remote uri. For remote access on windows, please consider using a different scheme such as SMB (e.g. smb://<hostname>/<path>).
+2026-05-16 13:38:01 | streamlit_app | WARNING | Failed to initialize MLflow: file://C:\Users\shail\OneDrive\Desktop\senior citizen chatbot\mlruns is not a valid remote uri. For remote access on windows, please consider using a different scheme such as SMB (e.g. smb://<hostname>/<path>).
+2026-05-16 13:38:01 | src.rag_pipeline | INFO | Initializing Senior Chatbot Pipeline...
+2026-05-16 13:38:01 | src.rag_pipeline | INFO | Step 1/3: Loading embedding model...
+2026-05-16 13:38:01 | src.embeddings | INFO | Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-05-16 13:38:10 | src.embeddings | INFO | Embedding model loaded successfully
+2026-05-16 13:38:10 | src.rag_pipeline | INFO | Step 2/3: Setting up vector store...
+2026-05-16 13:38:10 | src.embeddings | INFO | Loading FAISS index from C:\Users\shail\OneDrive\Desktop\senior citizen chatbot\vectorstore
+2026-05-16 13:38:10 | src.embeddings | INFO | FAISS index loaded successfully
+2026-05-16 13:38:10 | src.rag_pipeline | INFO | Step 3/3: Loading LLM...
+2026-05-16 13:38:10 | src.llm_engine | INFO | Loading LLM via Groq: llama-3.1-8b-instant
+2026-05-16 13:38:10 | src.llm_engine | INFO | LLM loaded successfully
+2026-05-16 13:38:10 | src.rag_pipeline | INFO | Pipeline initialized successfully!
+2026-05-16 19:29:49 | streamlit_app | WARNING | Failed to initialize MLflow: file://C:\Users\shail\OneDrive\Desktop\senior citizen chatbot\mlruns is not a valid remote uri. For remote access on windows, please consider using a different scheme such as SMB (e.g. smb://<hostname>/<path>).
+2026-05-16 19:29:49 | src.rag_pipeline | INFO | Initializing Senior Chatbot Pipeline...
+2026-05-16 19:29:49 | src.rag_pipeline | INFO | Step 1/3: Loading embedding model...
+2026-05-16 19:29:49 | src.embeddings | INFO | Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-05-16 19:30:00 | src.embeddings | INFO | Embedding model loaded successfully
+2026-05-16 19:30:00 | src.rag_pipeline | INFO | Step 2/3: Setting up vector store...
+2026-05-16 19:30:00 | src.embeddings | INFO | Loading FAISS index from C:\Users\shail\OneDrive\Desktop\senior citizen chatbot\vectorstore
+2026-05-16 19:30:01 | src.embeddings | INFO | FAISS index loaded successfully
+2026-05-16 19:30:01 | src.rag_pipeline | INFO | Step 3/3: Loading LLM...
+2026-05-16 19:30:01 | src.llm_engine | INFO | Loading LLM via Groq: llama-3.1-8b-instant
+2026-05-16 19:30:03 | src.llm_engine | INFO | LLM loaded successfully
+2026-05-16 19:30:03 | src.rag_pipeline | INFO | Pipeline initialized successfully!
+2026-05-16 21:01:39 | src.domain_classifier | INFO | No keyword match — defaulting to 'companion'
+2026-05-16 21:01:40 | src.domain_classifier | INFO | Embedding classification: companion (confidence: 0.667)
+2026-05-16 21:01:40 | src.retriever | INFO | Retrieving top-4 chunks for: 'what should i do today in my free time...'
+2026-05-16 21:01:40 | src.retriever | INFO | Domain filter 'companion': 4 matches
+2026-05-16 21:01:40 | src.retriever | INFO | Retrieved 4 chunks
+2026-05-16 21:01:40 | src.llm_engine | INFO | Generating response for: 'what should i do today in my free time'
+2026-05-16 21:01:41 | src.llm_engine | INFO | Response generated (2432 chars)
+2026-05-16 21:01:41 | src.rag_pipeline | INFO | Query processed — domain: companion, emergency: False, sources: ['companion.txt']
+2026-05-16 21:02:11 | src.domain_classifier | INFO | Domain classified: entertainment (confidence: 0.080)
+2026-05-16 21:02:11 | src.domain_classifier | INFO | Embedding classification: entertainment (confidence: 0.667)
+2026-05-16 21:02:11 | src.retriever | INFO | Retrieving top-4 chunks for: 'what should i read what books are good...'
+2026-05-16 21:02:11 | src.retriever | INFO | Domain filter 'entertainment': 5 matches
+2026-05-16 21:02:11 | src.retriever | INFO | Retrieved 4 chunks
+2026-05-16 21:02:11 | src.llm_engine | INFO | Generating response for: 'what should i read what books are good'
+2026-05-16 21:02:12 | src.llm_engine | INFO | Response generated (2864 chars)
+2026-05-16 21:02:12 | src.rag_pipeline | INFO | Query processed — domain: entertainment, emergency: False, sources: ['entertainment.txt']
+2026-05-16 21:07:11 | streamlit_app | WARNING | Failed MLflow: file://C:\Users\shail\OneDrive\Desktop\senior citizen chatbot\mlruns is not a valid remote uri. For remote access on windows, please consider using a different scheme such as SMB (e.g. smb://<hostname>/<path>).
+2026-05-16 21:07:11 | src.rag_pipeline | INFO | Initializing Senior Chatbot Pipeline...
+2026-05-16 21:07:11 | src.rag_pipeline | INFO | Step 1/3: Loading embedding model...
+2026-05-16 21:07:11 | src.embeddings | INFO | Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-05-16 21:07:19 | src.embeddings | INFO | Embedding model loaded successfully
+2026-05-16 21:07:19 | src.rag_pipeline | INFO | Step 2/3: Setting up vector store...
+2026-05-16 21:07:19 | src.embeddings | INFO | Loading FAISS index from C:\Users\shail\OneDrive\Desktop\senior citizen chatbot\vectorstore
+2026-05-16 21:07:20 | src.embeddings | INFO | FAISS index loaded successfully
+2026-05-16 21:07:20 | src.rag_pipeline | INFO | Step 3/3: Loading LLM...
+2026-05-16 21:07:20 | src.llm_engine | INFO | Loading LLM via Groq: llama-3.1-8b-instant
+2026-05-16 21:07:21 | src.llm_engine | INFO | LLM loaded successfully
+2026-05-16 21:07:21 | src.rag_pipeline | INFO | Pipeline initialized successfully!
+2026-05-16 21:09:39 | streamlit_app | WARNING | Failed MLflow: file://C:\Users\shail\OneDrive\Desktop\senior citizen chatbot\mlruns is not a valid remote uri. For remote access on windows, please consider using a different scheme such as SMB (e.g. smb://<hostname>/<path>).
+2026-05-16 21:09:39 | streamlit_app | WARNING | Failed MLflow: file://C:\Users\shail\OneDrive\Desktop\senior citizen chatbot\mlruns is not a valid remote uri. For remote access on windows, please consider using a different scheme such as SMB (e.g. smb://<hostname>/<path>).
+2026-05-16 21:09:39 | src.rag_pipeline | INFO | Initializing Senior Chatbot Pipeline...
+2026-05-16 21:09:39 | src.rag_pipeline | INFO | Step 1/3: Loading embedding model...
+2026-05-16 21:09:39 | src.embeddings | INFO | Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-05-16 21:10:32 | streamlit_app | WARNING | Failed MLflow: file://C:\Users\shail\OneDrive\Desktop\senior citizen chatbot\mlruns is not a valid remote uri. For remote access on windows, please consider using a different scheme such as SMB (e.g. smb://<hostname>/<path>).
+2026-05-16 21:10:32 | src.rag_pipeline | INFO | Initializing Senior Chatbot Pipeline...
+2026-05-16 21:10:32 | src.rag_pipeline | INFO | Step 1/3: Loading embedding model...
+2026-05-16 21:10:32 | src.embeddings | INFO | Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-05-16 21:13:06 | streamlit_app | WARNING | Failed to initialize MLflow: file://C:\Users\shail\OneDrive\Desktop\senior citizen chatbot\mlruns is not a valid remote uri. For remote access on windows, please consider using a different scheme such as SMB (e.g. smb://<hostname>/<path>).
+2026-05-16 21:13:06 | src.rag_pipeline | INFO | Initializing Senior Chatbot Pipeline...
+2026-05-16 21:13:06 | src.rag_pipeline | INFO | Step 1/3: Loading embedding model...
+2026-05-16 21:13:06 | src.embeddings | INFO | Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-05-16 21:13:14 | src.embeddings | INFO | Embedding model loaded successfully
+2026-05-16 21:13:14 | src.rag_pipeline | INFO | Step 2/3: Setting up vector store...
+2026-05-16 21:13:14 | src.embeddings | INFO | Loading FAISS index from C:\Users\shail\OneDrive\Desktop\senior citizen chatbot\vectorstore
+2026-05-16 21:13:14 | src.embeddings | INFO | FAISS index loaded successfully
+2026-05-16 21:13:14 | src.rag_pipeline | INFO | Step 3/3: Loading LLM...
+2026-05-16 21:13:15 | src.llm_engine | INFO | Loading LLM via Groq: llama-3.1-8b-instant
+2026-05-16 21:13:15 | src.llm_engine | INFO | LLM loaded successfully
+2026-05-16 21:13:15 | src.rag_pipeline | INFO | Pipeline initialized successfully!
+2026-05-16 21:18:46 | streamlit_app | WARNING | Failed to initialize MLflow: file://C:\Users\shail\OneDrive\Desktop\senior citizen chatbot\mlruns is not a valid remote uri. For remote access on windows, please consider using a different scheme such as SMB (e.g. smb://<hostname>/<path>).
+2026-05-16 21:18:46 | src.rag_pipeline | INFO | Initializing Senior Chatbot Pipeline...
+2026-05-16 21:18:46 | src.rag_pipeline | INFO | Step 1/3: Loading embedding model...
+2026-05-16 21:18:46 | src.embeddings | INFO | Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-05-16 21:18:59 | src.embeddings | INFO | Embedding model loaded successfully
+2026-05-16 21:18:59 | src.rag_pipeline | INFO | Step 2/3: Setting up vector store...
+2026-05-16 21:18:59 | src.embeddings | INFO | Loading FAISS index from C:\Users\shail\OneDrive\Desktop\senior citizen chatbot\vectorstore
+2026-05-16 21:18:59 | src.embeddings | INFO | FAISS index loaded successfully
+2026-05-16 21:18:59 | src.rag_pipeline | INFO | Step 3/3: Loading LLM...
+2026-05-16 21:18:59 | src.llm_engine | INFO | Loading LLM via Groq: llama-3.1-8b-instant
+2026-05-16 21:19:00 | src.llm_engine | INFO | LLM loaded successfully
+2026-05-16 21:19:00 | src.rag_pipeline | INFO | Pipeline initialized successfully!
+2026-05-16 21:23:06 | streamlit_app | WARNING | Failed to initialize MLflow: file://C:\Users\shail\OneDrive\Desktop\senior citizen chatbot\mlruns is not a valid remote uri. For remote access on windows, please consider using a different scheme such as SMB (e.g. smb://<hostname>/<path>).
+2026-05-16 21:23:06 | streamlit_app | WARNING | Failed to initialize MLflow: file://C:\Users\shail\OneDrive\Desktop\senior citizen chatbot\mlruns is not a valid remote uri. For remote access on windows, please consider using a different scheme such as SMB (e.g. smb://<hostname>/<path>).
+2026-05-16 21:23:06 | src.rag_pipeline | INFO | Initializing Senior Chatbot Pipeline...
+2026-05-16 21:23:06 | src.rag_pipeline | INFO | Step 1/3: Loading embedding model...
+2026-05-16 21:23:06 | src.embeddings | INFO | Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-05-16 21:23:17 | src.embeddings | INFO | Embedding model loaded successfully
+2026-05-16 21:23:17 | src.rag_pipeline | INFO | Step 2/3: Setting up vector store...
+2026-05-16 21:23:17 | src.embeddings | INFO | Loading FAISS index from C:\Users\shail\OneDrive\Desktop\senior citizen chatbot\vectorstore
+2026-05-16 21:23:17 | src.embeddings | INFO | FAISS index loaded successfully
+2026-05-16 21:23:17 | src.rag_pipeline | INFO | Step 3/3: Loading LLM...
+2026-05-16 21:23:17 | src.llm_engine | INFO | Loading LLM via Groq: llama-3.1-8b-instant
+2026-05-16 21:23:17 | src.llm_engine | INFO | LLM loaded successfully
+2026-05-16 21:23:17 | src.rag_pipeline | INFO | Pipeline initialized successfully!
+2026-05-16 21:24:20 | src.domain_classifier | INFO | No keyword match — defaulting to 'companion'
+2026-05-16 21:24:21 | src.domain_classifier | INFO | Embedding classification: companion (confidence: 0.667)
+2026-05-16 21:24:21 | src.retriever | INFO | Retrieving top-4 chunks for: 'what should i do in free time today...'
+2026-05-16 21:24:21 | src.retriever | INFO | Domain filter 'companion': 4 matches
+2026-05-16 21:24:21 | src.retriever | INFO | Retrieved 4 chunks
+2026-05-16 21:24:21 | src.llm_engine | INFO | Generating response for: 'what should i do in free time today'
+2026-05-16 21:24:22 | src.llm_engine | INFO | Response generated (2888 chars)
+2026-05-16 21:24:22 | src.rag_pipeline | INFO | Query processed — domain: companion, emergency: False, sources: ['companion.txt']
+2026-05-16 21:24:48 | src.domain_classifier | INFO | Domain classified: entertainment (confidence: 0.080)
+2026-05-16 21:24:48 | src.domain_classifier | INFO | Embedding classification: entertainment (confidence: 0.667)
+2026-05-16 21:24:48 | src.retriever | INFO | Retrieving top-4 chunks for: 'what books should i read...'
+2026-05-16 21:24:48 | src.retriever | INFO | Domain filter 'entertainment': 5 matches
+2026-05-16 21:24:48 | src.retriever | INFO | Retrieved 4 chunks
+2026-05-16 21:24:48 | src.llm_engine | INFO | Generating response for: 'what books should i read'
+2026-05-16 21:24:49 | src.llm_engine | INFO | Response generated (2734 chars)
+2026-05-16 21:24:49 | src.rag_pipeline | INFO | Query processed — domain: entertainment, emergency: False, sources: ['entertainment.txt']
+2026-05-16 21:25:00 | src.domain_classifier | INFO | Domain classified: companion (confidence: 0.040)
+2026-05-16 21:25:00 | src.domain_classifier | INFO | Embedding classification: companion (confidence: 0.667)
+2026-05-16 21:25:00 | src.retriever | INFO | Retrieving top-4 chunks for: 'thank you...'
+2026-05-16 21:25:00 | src.retriever | INFO | Domain filter 'companion': 5 matches
+2026-05-16 21:25:00 | src.retriever | INFO | Retrieved 4 chunks
+2026-05-16 21:25:00 | src.llm_engine | INFO | Generating response for: 'thank you'
+2026-05-16 21:25:02 | src.llm_engine | INFO | Response generated (1748 chars)
+2026-05-16 21:25:02 | src.rag_pipeline | INFO | Query processed — domain: companion, emergency: False, sources: ['companion.txt']
+2026-05-16 21:27:47 | streamlit_app | WARNING | Failed to initialize MLflow: file://C:\Users\shail\OneDrive\Desktop\senior citizen chatbot\mlruns is not a valid remote uri. For remote access on windows, please consider using a different scheme such as SMB (e.g. smb://<hostname>/<path>).
+2026-05-16 21:27:47 | streamlit_app | WARNING | Failed to initialize MLflow: file://C:\Users\shail\OneDrive\Desktop\senior citizen chatbot\mlruns is not a valid remote uri. For remote access on windows, please consider using a different scheme such as SMB (e.g. smb://<hostname>/<path>).
+2026-05-16 21:27:47 | src.rag_pipeline | INFO | Initializing Senior Chatbot Pipeline...
+2026-05-16 21:27:47 | src.rag_pipeline | INFO | Step 1/3: Loading embedding model...
+2026-05-16 21:27:47 | src.embeddings | INFO | Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-05-16 21:27:55 | src.embeddings | INFO | Embedding model loaded successfully
+2026-05-16 21:27:55 | src.rag_pipeline | INFO | Step 2/3: Setting up vector store...
+2026-05-16 21:27:55 | src.embeddings | INFO | Loading FAISS index from C:\Users\shail\OneDrive\Desktop\senior citizen chatbot\vectorstore
+2026-05-16 21:27:55 | src.embeddings | INFO | FAISS index loaded successfully
+2026-05-16 21:27:55 | src.rag_pipeline | INFO | Step 3/3: Loading LLM...
+2026-05-16 21:27:55 | src.llm_engine | INFO | Loading LLM via Groq: llama-3.1-8b-instant
+2026-05-16 21:27:55 | src.llm_engine | INFO | LLM loaded successfully
+2026-05-16 21:27:55 | src.rag_pipeline | INFO | Pipeline initialized successfully!
+2026-05-16 21:34:21 | src.domain_classifier | INFO | Domain classified: banking (confidence: 0.100)
+2026-05-16 21:34:21 | src.domain_classifier | INFO | Embedding classification: banking (confidence: 0.667)
+2026-05-16 21:34:21 | src.retriever | INFO | Retrieving top-4 chunks for: 'how do i open account in bank...'
+2026-05-16 21:34:21 | src.retriever | INFO | Domain filter 'banking': 3 matches
+2026-05-16 21:34:21 | src.retriever | INFO | Retrieved 3 chunks
+2026-05-16 21:34:21 | src.llm_engine | INFO | Generating response for: 'how do i open account in bank'
+2026-05-16 21:34:23 | src.llm_engine | INFO | Response generated (2844 chars)
+2026-05-16 21:34:23 | src.rag_pipeline | INFO | Query processed — domain: banking, emergency: False, sources: ['banking.txt']
+2026-05-16 21:37:37 | streamlit_app | WARNING | Failed to initialize MLflow: file://C:\Users\shail\OneDrive\Desktop\senior citizen chatbot\mlruns is not a valid remote uri. For remote access on windows, please consider using a different scheme such as SMB (e.g. smb://<hostname>/<path>).
+2026-05-16 21:37:37 | src.rag_pipeline | INFO | Initializing Senior Chatbot Pipeline...
+2026-05-16 21:37:37 | src.rag_pipeline | INFO | Step 1/3: Loading embedding model...
+2026-05-16 21:37:37 | src.embeddings | INFO | Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-05-16 21:37:49 | src.embeddings | INFO | Embedding model loaded successfully
+2026-05-16 21:37:49 | src.rag_pipeline | INFO | Step 2/3: Setting up vector store...
+2026-05-16 21:37:49 | src.embeddings | INFO | Loading FAISS index from C:\Users\shail\OneDrive\Desktop\senior citizen chatbot\vectorstore
+2026-05-16 21:37:49 | src.embeddings | INFO | FAISS index loaded successfully
+2026-05-16 21:37:49 | src.rag_pipeline | INFO | Step 3/3: Loading LLM...
+2026-05-16 21:37:49 | src.llm_engine | INFO | Loading LLM via Groq: llama-3.1-8b-instant
+2026-05-16 21:37:50 | src.llm_engine | INFO | LLM loaded successfully
+2026-05-16 21:37:50 | src.rag_pipeline | INFO | Pipeline initialized successfully!
+2026-05-16 21:38:17 | src.voice_handler | INFO | TTS completed (56 chars)
+2026-05-16 21:38:17 | streamlit_app | INFO | Text-to-speech triggered for message: Hello! I'm here to help you. How can I assist you ...
+2026-05-16 21:38:26 | src.voice_handler | INFO | TTS completed (56 chars)
+2026-05-16 21:38:26 | streamlit_app | INFO | Text-to-speech triggered for message: Hello! I'm here to help you. How can I assist you ...
+2026-05-16 21:39:20 | src.voice_handler | INFO | TTS completed (56 chars)
+2026-05-16 21:39:20 | streamlit_app | INFO | Text-to-speech triggered for message: Hello! I'm here to help you. How can I assist you ...
+2026-05-16 21:39:34 | src.domain_classifier | INFO | Domain classified: entertainment (confidence: 0.040)
+2026-05-16 21:39:35 | src.domain_classifier | INFO | Embedding classification: voice_text (confidence: 0.333)
+2026-05-16 21:39:35 | src.retriever | INFO | Retrieving top-4 chunks for: 'what should i read toda...'
+2026-05-16 21:39:35 | src.retriever | INFO | Retrieved 4 chunks
+2026-05-16 21:39:35 | src.llm_engine | INFO | Generating response for: 'what should i read toda'
+2026-05-16 21:39:37 | src.llm_engine | INFO | Response generated (1983 chars)
+2026-05-16 21:39:37 | src.rag_pipeline | INFO | Query processed — domain: entertainment, emergency: False, sources: ['companion.txt', 'entertainment.txt', 'voice_text_tips.txt']
+2026-05-16 21:41:09 | streamlit_app | WARNING | Failed to initialize MLflow: file://C:\Users\shail\OneDrive\Desktop\senior citizen chatbot\mlruns is not a valid remote uri. For remote access on windows, please consider using a different scheme such as SMB (e.g. smb://<hostname>/<path>).
+2026-05-16 21:41:09 | src.rag_pipeline | INFO | Initializing Senior Chatbot Pipeline...
+2026-05-16 21:41:09 | src.rag_pipeline | INFO | Step 1/3: Loading embedding model...
+2026-05-16 21:41:09 | src.embeddings | INFO | Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-05-16 21:41:19 | src.embeddings | INFO | Embedding model loaded successfully
+2026-05-16 21:41:19 | src.rag_pipeline | INFO | Step 2/3: Setting up vector store...
+2026-05-16 21:41:19 | src.embeddings | INFO | Loading FAISS index from C:\Users\shail\OneDrive\Desktop\senior citizen chatbot\vectorstore
+2026-05-16 21:41:19 | src.embeddings | INFO | FAISS index loaded successfully
+2026-05-16 21:41:20 | src.rag_pipeline | INFO | Step 3/3: Loading LLM...
+2026-05-16 21:41:20 | src.llm_engine | INFO | Loading LLM via Groq: llama-3.1-8b-instant
+2026-05-16 21:41:20 | src.llm_engine | INFO | LLM loaded successfully
+2026-05-16 21:41:20 | src.rag_pipeline | INFO | Pipeline initialized successfully!
+2026-05-16 21:41:58 | src.voice_handler | INFO | TTS completed (56 chars)
+2026-05-16 21:41:58 | streamlit_app | INFO | Text-to-speech triggered for message: Hello! I'm here to help you. How can I assist you ...
+2026-05-16 21:42:12 | src.domain_classifier | INFO | Domain classified: entertainment (confidence: 0.080)
+2026-05-16 21:42:12 | src.domain_classifier | INFO | Embedding classification: companion (confidence: 0.667)
+2026-05-16 21:42:12 | src.retriever | INFO | Retrieving top-4 chunks for: 'what book should i read today...'
+2026-05-16 21:42:12 | src.retriever | INFO | Domain filter 'companion': 5 matches
+2026-05-16 21:42:12 | src.retriever | INFO | Retrieved 4 chunks
+2026-05-16 21:42:12 | src.llm_engine | INFO | Generating response for: 'what book should i read today'
+2026-05-16 21:42:14 | src.llm_engine | INFO | Response generated (2193 chars)
+2026-05-16 21:42:14 | src.rag_pipeline | INFO | Query processed — domain: companion, emergency: False, sources: ['companion.txt']
+2026-05-16 21:46:46 | streamlit_app | WARNING | Failed to initialize MLflow: file://C:\Users\shail\OneDrive\Desktop\senior citizen chatbot\mlruns is not a valid remote uri. For remote access on windows, please consider using a different scheme such as SMB (e.g. smb://<hostname>/<path>).
+2026-05-16 21:46:46 | src.rag_pipeline | INFO | Initializing Senior Chatbot Pipeline...
+2026-05-16 21:46:46 | src.rag_pipeline | INFO | Step 1/3: Loading embedding model...
+2026-05-16 21:46:46 | src.embeddings | INFO | Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-05-16 21:47:03 | src.embeddings | INFO | Embedding model loaded successfully
+2026-05-16 21:47:03 | src.rag_pipeline | INFO | Step 2/3: Setting up vector store...
+2026-05-16 21:47:03 | src.embeddings | INFO | Loading FAISS index from C:\Users\shail\OneDrive\Desktop\senior citizen chatbot\vectorstore
+2026-05-16 21:47:04 | src.embeddings | INFO | FAISS index loaded successfully
+2026-05-16 21:47:04 | src.rag_pipeline | INFO | Step 3/3: Loading LLM...
+2026-05-16 21:47:04 | src.llm_engine | INFO | Loading LLM via Groq: llama-3.1-8b-instant
+2026-05-16 21:47:04 | src.llm_engine | INFO | LLM loaded successfully
+2026-05-16 21:47:04 | src.rag_pipeline | INFO | Pipeline initialized successfully!
+2026-05-16 21:48:00 | src.voice_handler | INFO | TTS completed (56 chars)
+2026-05-16 21:48:00 | streamlit_app | INFO | Text-to-speech triggered for message: Hello! I'm here to help you. How can I assist you ...
+2026-05-16 21:48:07 | src.domain_classifier | INFO | Domain classified: entertainment (confidence: 0.080)
+2026-05-16 21:48:07 | src.domain_classifier | INFO | Embedding classification: entertainment (confidence: 0.667)
+2026-05-16 21:48:07 | src.retriever | INFO | Retrieving top-4 chunks for: 'what book should i read...'
+2026-05-16 21:48:07 | src.retriever | INFO | Domain filter 'entertainment': 4 matches
+2026-05-16 21:48:07 | src.retriever | INFO | Retrieved 4 chunks
+2026-05-16 21:48:07 | src.llm_engine | INFO | Generating response for: 'what book should i read'
+2026-05-16 21:48:09 | src.llm_engine | INFO | Response generated (2731 chars)
+2026-05-16 21:48:09 | src.rag_pipeline | INFO | Query processed — domain: entertainment, emergency: False, sources: ['entertainment.txt']
+2026-05-17 22:45:46 | streamlit_app | WARNING | Failed to initialize MLflow: file://C:\Users\shail\OneDrive\Desktop\senior citizen chatbot\mlruns is not a valid remote uri. For remote access on windows, please consider using a different scheme such as SMB (e.g. smb://<hostname>/<path>).
+2026-05-17 22:45:46 | src.rag_pipeline | INFO | Initializing Senior Chatbot Pipeline...
+2026-05-17 22:45:46 | src.rag_pipeline | INFO | Step 1/3: Loading embedding model...
+2026-05-17 22:45:46 | src.embeddings | INFO | Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-05-17 22:45:55 | src.embeddings | INFO | Embedding model loaded successfully
+2026-05-17 22:45:55 | src.rag_pipeline | INFO | Step 2/3: Setting up vector store...
+2026-05-17 22:45:55 | src.embeddings | INFO | Loading FAISS index from C:\Users\shail\OneDrive\Desktop\senior citizen chatbot\vectorstore
+2026-05-17 22:45:56 | src.embeddings | INFO | FAISS index loaded successfully
+2026-05-17 22:45:56 | src.rag_pipeline | INFO | Step 3/3: Loading LLM...
+2026-05-17 22:45:56 | src.llm_engine | INFO | Loading LLM via Groq: llama-3.1-8b-instant
+2026-05-17 22:45:56 | src.llm_engine | INFO | LLM loaded successfully
+2026-05-17 22:45:56 | src.rag_pipeline | INFO | Pipeline initialized successfully!

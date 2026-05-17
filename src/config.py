@@ -146,8 +146,8 @@ SPEECH_RECOGNITION_TIMEOUT = 10  # seconds
 # ──────────────────────────────────────────────
 # Streamlit UI Configuration
 # ──────────────────────────────────────────────
-APP_TITLE = "🤖 Senior Care Assistant"
-APP_SUBTITLE = "Your friendly AI helper — ask me anything!"
+APP_TITLE = "ElderlyCompanion"
+APP_SUBTITLE = "Your friendly AI companion — ask me anything!"
 FONT_SIZE_LARGE = "20px"
 FONT_SIZE_BODY = "18px"
 FONT_SIZE_SMALL = "16px"
