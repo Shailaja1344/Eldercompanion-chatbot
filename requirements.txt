@@ -17,9 +17,6 @@ streamlit>=1.30.0
 pyttsx3>=2.90
 SpeechRecognition>=3.10.0
 
-# MLOps
-mlflow>=2.10.0
-
 # Testing & Quality
 pytest>=7.4.0
 pytest-cov>=4.1.0
