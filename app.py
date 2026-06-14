@@ -19,7 +19,7 @@ from src.config import APP_TITLE, APP_SUBTITLE, DATA_DIR
 from src.rag_pipeline import SeniorChatbotPipeline
 from src.voice_handler import is_voice_available, text_to_speech
 from src.utils import setup_logger, is_emergency_query
-from mlflow_config import setup_mlflow, log_query
+
 
 logger = setup_logger("streamlit_app")
 
@@ -489,11 +489,7 @@ if "reminders" not in st.session_state:
 # ──────────────────────────────────────────────
 @st.cache_resource(show_spinner=False)
 def init_pipeline():
-    try:
-        setup_mlflow()
-        logger.info("MLflow initialized")
-    except Exception as e:
-        logger.warning(f"Failed to initialize MLflow: {e}")
+    logger.info("Application initialized")
 
     pipeline = SeniorChatbotPipeline()
     pipeline.initialize()
